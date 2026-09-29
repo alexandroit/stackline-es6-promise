@@ -1,7 +1,7 @@
 {
   "name": "@stackline/es6-promise",
   "description": "A lightweight library that provides tools for organizing asynchronous code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)",
   "browser": {
     "vertx": false
@@ -38,14 +38,17 @@
     "README.md",
     "readme.md"
   ],
-  "homepage": "https://github.com/alexandroit/stackline-es6-promise#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/es6-promise/",
   "jsdelivr": "dist/es6-promise.auto.min.js",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "es6-promise",
+    "typescript",
     "futures",
     "polyfill",
     "promise",
     "promises",
-    "stackline",
     "maintenance-fork"
   ],
   "license": "MIT",
