@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';import path from 'node:path';import puppeteer from 'puppeteer-core';
+const browser=await puppeteer.launch({executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+try{const page=await browser.newPage();await page.evaluate(()=>{window.Promise=undefined;});await page.addScriptTag({path:path.resolve('dist/es6-promise.auto.js')});const value=await page.evaluate(()=>Promise.all([Promise.resolve(20),new Promise(r=>setTimeout(()=>r(22),5))]).then(values=>values[0]+values[1]));assert.equal(value,42);console.log('Real Chromium auto-polyfill + asynchronous settlement passed');}finally{await browser.close();}
