@@ -1,0 +1,27 @@
+{
+  "repository": "alexandroit/stackline-es6-promise",
+  "packages": [
+    {
+      "name": "@stackline/es6-promise",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "es6-promise",
+        "typescript",
+        "futures",
+        "polyfill",
+        "promise",
+        "promises",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/es6-promise/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/es6-promise/-/es6-promise-1.0.0.tgz",
+      "baselineIntegrity": "sha512-BF6XtfKXjImY4tjPdf4sCGhdDX0ltQzoe2x4GUEx7sPWAfxEBit2vP2AJJuHV3VEmcHYXi90pHq7mhopwdCyeg==",
+      "expectedSha512": "20302307a8222c2a0a0b5a5c56c9a4e7a10dff9c846b5e7ff3eafb5670855d53639d1ba912382a11b155026badac3c292a00e5bacb4e906c23ce26a9af12e36a",
+      "tag": "docs-stackline-es6-promise-v1.0.1"
+    }
+  ]
+}
