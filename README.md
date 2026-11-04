@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/es6-promise/)** | **[npm](https://www.npmjs.com/package/@stackline/es6-promise)** | **[Issues](https://github.com/alexandroit/stackline-es6-promise/issues)** | **[Repository](https://github.com/alexandroit/stackline-es6-promise)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/es6-promise@1.0.2` |
+| Package | `@stackline/es6-promise@1.0.3` |
 | API target | `es6-promise@4.2.8` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |

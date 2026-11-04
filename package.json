@@ -1,7 +1,7 @@
 {
   "name": "@stackline/es6-promise",
   "description": "A lightweight library that provides tools for organizing asynchronous code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)",
   "browser": {
     "vertx": false
@@ -12,13 +12,12 @@
   "dependencies": {},
   "devDependencies": {
     "rollup": "4.63.5",
-    "@rollup/plugin-node-resolve": "16.0.3",
     "@rollup/plugin-babel": "7.1.0",
     "@babel/core": "7.29.7",
     "@babel/preset-env": "7.29.7",
     "@rollup/plugin-terser": "1.0.0",
     "mocha": "12.0.2",
-    "puppeteer-core": "25.12.0",
+    "puppeteer-core": "25.16.0",
     "acorn": "8.15.0"
   },
   "directories": {
@@ -71,5 +70,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "overrides": {
+    "glob@>=9 <14.0.3": "14.0.3",
+    "minimatch@>=7 <11.0.4": "11.0.4"
   }
 }
